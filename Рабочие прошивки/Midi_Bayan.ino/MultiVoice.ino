@@ -251,10 +251,10 @@ char alt_notes_1[10][8][4] = {
   {{B5 , B4 , NNN, NNN},{Ab5, Ab4, NNN, NNN},{E5 , E4 , NNN, NNN},{Db5, Db4, NNN, NNN},{A4 , A5 , NNN, NNN},{Fd4, Fd3, NNN, NNN},{D4 , D3 , NNN, NNN},{B3 , B2 , NNN, NNN}}, // Для L2
   {{Eb4, Eb3, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L3
   //басы, сверху вниз
-  {{Ab2, NNN, NNN, NNN},{A2 , NNN, NNN, NNN},{B2 , NNN, NNN, NNN},{Db3, NNN, NNN, NNN},{D3 , NNN, NNN, NNN},{E3 , NNN, NNN, NNN},{Fd3, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
+  {{Ab2, Ab3, NNN, NNN},{A2 , A3 , NNN, NNN},{B2 , B3 , NNN, NNN},{Db2, Db3, NNN, NNN},{D2 , D3 , NNN, NNN},{E2 , E3 , NNN, NNN},{Fd2, Fd3, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
   //Аккорды сверху вниз
-  {{Ab3, NNN, NNN, NNN},{A3 , NNN, NNN, NNN},{B3 , NNN, NNN, NNN},{C4 , NNN, NNN, NNN},{Db4, NNN, NNN, NNN},{D4 , NNN, NNN, NNN},{Fd4, NNN, NNN, NNN},{E4 , NNN, NNN, NNN}}, // Для L5
-  {{F4 , NNN, NNN, NNN},{Fd4, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
+  {{Ab3, Ab4, NNN, NNN},{A3 , A4 , NNN, NNN},{B3 , B4 , NNN, NNN},{C3 , C4 , NNN, NNN},{Db3, Db4, NNN, NNN},{D3 , D4 , NNN, NNN},{Fd3, Fd4, NNN, NNN},{E3 , E4 , NNN, NNN}}, // Для L5
+  {{F3 , F4 , NNN, NNN},{Fd3, Fd4, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
   // NNN означает отсутствие ноты,
 };
 
