@@ -211,8 +211,8 @@ char notes[10][8]  = {
 // Соответствие клавиш нотам. Каждая строка соответствует линиям:
 // D0, D1, D2, D3, D4, D5, D6 ,D7
   {Ab6,E6 ,Db6,A5 ,Fd5,D5 ,B4 ,Ab4}, // Для L0 Дальний правый ряд, снизу вверх
-  {E4 ,Db4,A3 ,F4 ,C4 				 // Для L1 
-					  ,A6 ,Fd6,D6 }, // Для L1 Ближний правый ряд, снизу вверх
+  {E4 ,Db4,A3 ,F4 ,C4 				       // Для L1 
+					            ,A6 ,Fd6,D6 }, // Для L1 Ближний правый ряд, снизу вверх
   {B5 ,Ab5,E5 ,Db5,A4 ,Fd4,D4 ,B3 }, // Для L2 
   {Eb4,NNN,NNN,NNN,NNN,NNN,NNN,NNN}, // Для L3 
   {Ab2,A2 ,B2 ,Db3,D3 ,E3 ,Fd3,NNN}, // Для L4 Басы, сверху вниз
@@ -228,33 +228,33 @@ char alt_notes_0[10][8][4] = {
 // Соответствие клавиш нотам (одна клавиша - 4е ноты). Каждая строка соответствует линиям:
 //  D0,                  D1,                  D2,                  D3,                  D4,                  D5,                  D6,                  D7
   //правая клавиатура-дальний ряд снизу вверх
-  {{Ab6, Ab5, NNN, NNN},{E6 , E5 , NNN, NNN},{Db6, Db5, NNN, NNN},{A5 , A4 , NNN, NNN},{Fd5, Fd4, NNN, NNN},{D5 , D4 , NNN, NNN},{B4 , B3 , NNN, NNN},{Ab4, Ab3, NNN, NNN}}, // Для L0
-																											//ближний правый ряд, снизу вверх
-  {{E4 , E3 , NNN, NNN},{Db4, Db3, NNN, NNN},{A3 , A2 , NNN, NNN},{F4 , F3 , NNN, NNN},{C4 , C3 , NNN, NNN},{A6 , A5 , NNN, NNN},{Fd6, Fd5, NNN, NNN},{D6 , D5 , NNN, NNN}}, // Для L1
-  {{B5 , B4 , NNN, NNN},{Ab5, Ab4, NNN, NNN},{E5 , E4 , NNN, NNN},{Db5, Db4, NNN, NNN},{A4 , A5 , NNN, NNN},{Fd4, Fd3, NNN, NNN},{D4 , D3 , NNN, NNN},{B3 , B2 , NNN, NNN}}, // Для L2
-  {{Eb4, Eb3, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L3
+  {{Ab6, Ab6, NNN, NNN},{E6 , E6 , NNN, NNN},{Db6, Db6, NNN, NNN},{A5 , A5 , NNN, NNN},{Fd5, Fd6, NNN, NNN},{D5 , D6 , NNN, NNN},{B4 , B5 , NNN, NNN},{Ab4, Ab5, NNN, NNN}}, // Для L0
+																											                                                      //ближний правый ряд, снизу вверх
+  {{E4 , E5 , NNN, NNN},{Db4, Db5, NNN, NNN},{A3 , A4 , NNN, NNN},{F4 , F5 , NNN, NNN},{C4 , C5 , NNN, NNN},{A6 , A6 , NNN, NNN},{Fd6, Fd6, NNN, NNN},{D6 , D6 , NNN, NNN}}, // Для L1
+  {{B5 , B6 , NNN, NNN},{Ab5, Ab6, NNN, NNN},{E5 , E6 , NNN, NNN},{Db5, Db6, NNN, NNN},{A4 , A5 , NNN, NNN},{Fd4, Fd5, NNN, NNN},{D4 , D5 , NNN, NNN},{B3 , B4 , NNN, NNN}}, // Для L2
+  {{Eb4, Eb5, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L3
   //басы, сверху вниз
-  {{Ab2, NNN, NNN, NNN},{A2 , NNN, NNN, NNN},{B2 , NNN, NNN, NNN},{Db3, NNN, NNN, NNN},{D3 , NNN, NNN, NNN},{E3 , NNN, NNN, NNN},{Fd3, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
+  {{Ab2, Ab3, NNN, NNN},{A2 , A3 , NNN, NNN},{B2 , B3 , NNN, NNN},{Db3, Db2, NNN, NNN},{D3 , D2 , NNN, NNN},{E3 , E2 , NNN, NNN},{Fd3, Fd2, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
   //Аккорды сверху вниз
-  {{Ab3, NNN, NNN, NNN},{A3 , NNN, NNN, NNN},{B3 , NNN, NNN, NNN},{C4 , NNN, NNN, NNN},{Db4, NNN, NNN, NNN},{D4 , NNN, NNN, NNN},{Fd4, NNN, NNN, NNN},{E4 , NNN, NNN, NNN}}, // Для L5
-  {{F4 , NNN, NNN, NNN},{Fd4, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
+  {{Ab3, Ab4, NNN, NNN},{A3 , A4 , NNN, NNN},{B3 , B4 , NNN, NNN},{C4 , C5 , NNN, NNN},{Db4, Db5, NNN, NNN},{D4 , D5 , NNN, NNN},{Fd4, Fd5, NNN, NNN},{E4 , E5 , NNN, NNN}}, // Для L5
+  {{F4 , F5 , NNN, NNN},{Fd4, Fd5, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
   // NNN означает отсутствие ноты,
 };
 
 char alt_notes_1[10][8][4] = {
 // Соответствие клавиш нотам (одна клавиша - 4е ноты). Каждая строка соответствует линиям:
 //  D0,                  D1,                  D2,                  D3,                  D4,                  D5,                  D6,                  D7
-  //правая клавиатура-дальний ряд снизу вверх
-  {{Ab6, Ab5, NNN, NNN},{E6 , E5 , NNN, NNN},{Db6, Db5, NNN, NNN},{A5 , A4 , NNN, NNN},{Fd5, Fd4, NNN, NNN},{D5 , D4 , NNN, NNN},{B4 , B3 , NNN, NNN},{Ab4, Ab3, NNN, NNN}}, // Для L0
-																											//ближний правый ряд, снизу вверх
-  {{E4 , E3 , NNN, NNN},{Db4, Db3, NNN, NNN},{A3 , A2 , NNN, NNN},{F4 , F3 , NNN, NNN},{C4 , C3 , NNN, NNN},{A6 , A5 , NNN, NNN},{Fd6, Fd5, NNN, NNN},{D6 , D5 , NNN, NNN}}, // Для L1
-  {{B5 , B4 , NNN, NNN},{Ab5, Ab4, NNN, NNN},{E5 , E4 , NNN, NNN},{Db5, Db4, NNN, NNN},{A4 , A5 , NNN, NNN},{Fd4, Fd3, NNN, NNN},{D4 , D3 , NNN, NNN},{B3 , B2 , NNN, NNN}}, // Для L2
-  {{Eb4, Eb3, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L3
-  //басы, сверху вниз
-  {{Ab2, Ab3, NNN, NNN},{A2 , A3 , NNN, NNN},{B2 , B3 , NNN, NNN},{Db2, Db3, NNN, NNN},{D2 , D3 , NNN, NNN},{E2 , E3 , NNN, NNN},{Fd2, Fd3, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
+ //правая клавиатура-дальний ряд снизу вверх
+  {{Ab6, Ab6, NNN, NNN},{E6 , E6 , NNN, NNN},{Db6, Db6, NNN, NNN},{A5 , A5 , NNN, NNN},{Fd5, Fd5, NNN, NNN},{D5 , D5 , NNN, NNN},{B4 , B4 , NNN, NNN},{Ab4, Ab4, NNN, NNN}}, // Для L0
+                                                                                                           //ближний правый ряд, снизу вверх
+  {{E4 , E4 , NNN, NNN},{Db4, Db4, NNN, NNN},{A3 , A3 , NNN, NNN},{F4 , F4 , NNN, NNN},{C4 , C4 , NNN, NNN},{A6 , A6 , NNN, NNN},{Fd6, Fd6, NNN, NNN},{D6 , D6 , NNN, NNN}}, // Для L1
+  {{B5 , B5 , NNN, NNN},{Ab5, Ab5, NNN, NNN},{E5 , E5 , NNN, NNN},{Db5, Db5, NNN, NNN},{A4 , A4 , NNN, NNN},{Fd4, Fd4, NNN, NNN},{D4 , D4 , NNN, NNN},{B3 , B3 , NNN, NNN}}, // Для L2
+  {{Eb4, Eb4, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L3
+ //басы, сверху вниз
+  {{Ab2, Ab3, NNN, NNN},{A2 , A3 , NNN, NNN},{B2 , B3 , NNN, NNN},{Db3, Db2, NNN, NNN},{D3 , D2 , NNN, NNN},{E3 , E2 , NNN, NNN},{Fd3, Fd2, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L4
   //Аккорды сверху вниз
-  {{Ab3, Ab4, NNN, NNN},{A3 , A4 , NNN, NNN},{B3 , B4 , NNN, NNN},{C3 , C4 , NNN, NNN},{Db3, Db4, NNN, NNN},{D3 , D4 , NNN, NNN},{Fd3, Fd4, NNN, NNN},{E3 , E4 , NNN, NNN}}, // Для L5
-  {{F3 , F4 , NNN, NNN},{Fd3, Fd4, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
+  {{Ab3, Ab4, NNN, NNN},{A3 , A4 , NNN, NNN},{B3 , B4 , NNN, NNN},{C4 , C5 , NNN, NNN},{Db4, Db5, NNN, NNN},{D4 , D5 , NNN, NNN},{Fd4, Fd5, NNN, NNN},{E4 , E5 , NNN, NNN}}, // Для L5
+  {{F4 , F5 , NNN, NNN},{Fd4, Fd5, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN},{NNN, NNN, NNN, NNN}}, // Для L6
   // NNN означает отсутствие ноты,
 };
 
